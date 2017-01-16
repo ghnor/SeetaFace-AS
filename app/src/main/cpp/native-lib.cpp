@@ -3,8 +3,8 @@
 
 extern "C"
 jstring
-Java_com_ghnor_ndktest_PreMainActivity_stringFromJNI(
-        JNIEnv* env,
+Java_com_ghnor_seetaface_1as_HomeActivity_stringFromJNI(
+        JNIEnv *env,
         jobject /* this */) {
     std::string hello = "Hello from C++";
     return env->NewStringUTF(hello.c_str());

@@ -34,7 +34,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.ghnor.ndktest.R;
+import com.ghnor.seetaface_as.R;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;

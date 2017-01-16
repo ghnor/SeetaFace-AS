@@ -1,4 +1,4 @@
-package com.ghnor.ndktest;
+package com.ghnor.seetaface_as;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.ghnor.ndktest", appContext.getPackageName());
+        assertEquals("com.ghnor.seetaface_as", appContext.getPackageName());
     }
 }

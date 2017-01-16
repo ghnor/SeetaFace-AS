@@ -11,6 +11,12 @@
 
 package seetaface;
 
+import android.content.Context;
+import android.graphics.Bitmap;
+import android.os.Environment;
+import android.text.TextUtils;
+import android.util.Log;
+
 import java.io.BufferedOutputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
@@ -22,12 +28,6 @@ import java.io.InputStream;
 import java.nio.channels.FileChannel;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
-
-import android.content.Context;
-import android.graphics.Bitmap;
-import android.os.Environment;
-import android.text.TextUtils;
-import android.util.Log;
 
 public class FileUtils {
 

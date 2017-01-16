@@ -55,7 +55,7 @@ public class XUtils {
     return true;
   }
 
-  public static int calculateInSampleSize(BitmapFactory.Options options, int maxWidth, int maxHeight) {
+  public static int calculateInSampleSize(Options options, int maxWidth, int maxHeight) {
 /*	  
     final int height = options.outHeight;
     final int width = options.outWidth;

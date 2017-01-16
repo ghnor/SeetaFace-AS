@@ -1,4 +1,4 @@
-package com.ghnor.ndktest;
+package com.ghnor.seetaface_as;
 
 import org.junit.Test;
 
